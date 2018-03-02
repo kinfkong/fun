@@ -15,7 +15,7 @@ mappings[7] = {A: 'C', B: 'B', C: 'A', D: 'D'};
 mappings[8] = {A: 7, B: 5, C: 2 , D: 10};
 mappings[9] = {A: 6, B: 10, C: 2, D: 9};
 mappings[10] = {A: 3, B: 2, C: 4, D: 1};
-for (let i = 0; i < (2<<19); i++) {
+for (let i = 0; i < (1<<20); i++) {
     // Q2
     if (mappings[2][getAnswer(i, 2)] !== getAnswer(i, 5)) {
         continue;
